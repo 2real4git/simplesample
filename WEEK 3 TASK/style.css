@@ -1,0 +1,109 @@
+
+*{
+    font-family: "sfpro", sans-serif;
+    text-decoration: none;
+    color: aquamarine
+    padding: 0%
+    box sizing: border-box
+}
+
+:root{
+    --blue: #0071e3;
+}
+
+Body{
+    overflow-x: hidden;
+    background-image: url(homepagepic.jpg);
+    background-size: cover;
+}
+
+header{
+    border-bottom: 1px solid #d8d8d8c9;
+    backdrop-filter: saturate(180%) blur(20px);
+    background-color:black;
+    position: fixed;
+    top:0%;
+    left:0%;
+    width: 100vw;
+    padding:0 20px;
+    height: 55px;
+}
+
+.header-wrapper{
+   max-width: 600px;
+   margin: auto;
+   display: flex;
+   align-items: center;
+   height: 100%;
+   justify-content: space-between;
+}
+
+header b {
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+nav a{
+    padding: 50px;
+    white-space: nowrap;
+    font-size: small;
+}
+
+nav a:hover{
+    color: var(--blue);
+}
+
+.buy-btn {
+    cursor: pointer;
+    background: var(--blue);
+    color: azure;
+    border-radius: 9999px;
+    font-weight: 400;
+    padding: 4px;
+}
+
+.buy-btn:hover {
+    background: #147ce5;
+    color: #fff;
+}
+
+p{
+    color: black;
+    font-size: 200%;
+    font: 500;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    padding-top: 100px;
+    text-align: center;
+    padding: 100px 100px;
+}
+
+div.Registration-form{
+    width: 500px;
+    margin: 100px auto 0px auto;
+    box-shadow: 10px 10px 25px;
+}
+
+h1{
+    color: tomato;
+}
+h3{
+    color: crimson;
+}
+
+div.Contact Us{
+   background-color: pink;
+}
+
+
+
